@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="h-full bg-[#F1F3F8]" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>ParseVision | AST Visualiser </title>
+  <!-- Google Fonts Preconnect -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Material Symbols Outlined -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block"
+    rel="stylesheet" />
+  <!-- Authoritative ParseVision Stylesheet (build-time CSS) -->
+  <link rel="stylesheet" href="/src/styles/style.css" />
+</head>
+
+<body class="min-h-[100dvh] h-full flex flex-col font-body-md text-on-surface bg-[#F1F3F8] antialiased overflow-x-hidden">
+  <div id="app" class="min-h-[100dvh] flex-1 flex flex-col w-full"></div>
+  <div id="pv-toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

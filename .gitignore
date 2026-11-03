@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing output and reports
+coverage/
+.nyc_output/
+test-results/
+test-reports/
+reports/
+*.lcov
+*.coverage
+*.test.log
+junit*.xml
+*.tap
+
+# Temporary development files
+scratch/
+*.tmp
+*.zip
